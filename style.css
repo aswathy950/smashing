@@ -3,15 +3,19 @@ background-color:silver;
 padding:20px;
 margin:20px;
 text-align:center;
-color:red
+color: red;
 }
 .h1{
 color:red;strong;font-size:5px;
 }
-.p{color:blue;font-size:3px}
-
- }
- .in{display:inline;
+.p1
+{
+  font-size:3px
+}
+ .in{
+text-align: right;
+ padding:20px;
+ margin:20px;
  background-color:blue;
- text-align:right;
+
  }
