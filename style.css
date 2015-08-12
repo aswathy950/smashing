@@ -17,5 +17,14 @@ text-align: right;
  padding:20px;
  margin:20px;
  background-color:blue;
+ }
+ .li{
+   background-color: white;
+   margin-left: 1000px;
+   margin-right: 20px;
+   padding: 20px;
+   color: maroon;
+ }
+ 
 
  }
