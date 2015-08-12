@@ -19,12 +19,17 @@ text-align: right;
  background-color:blue;
  }
  .li{
+   float: right;
    background-color: white;
-   margin-left: 1000px;
-   margin-right: 20px;
+   margin: 20px;
    padding: 20px;
    color: maroon;
  }
- 
+ .tab{
+   float: left;
+   margin: 20px;
+   padding: 20px;
+   margin: 20px;
+ }
 
  }
