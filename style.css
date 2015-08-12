@@ -17,14 +17,14 @@
   font-size:3px
   }
 
- .in  {
+ .inline  {
    text-align: right;
    padding:20px;
    margin:20px;
    background-color:yellow;
   }
 
- .li {
+ .list {
    float: right;
    background-color: white;
    margin: 20px;
@@ -32,7 +32,7 @@
    color: maroon;
  }
 
- .tab {
+ .table {
    background-color: white;
    float: left;
    margin: 20px;
@@ -40,10 +40,14 @@
    margin: 20px;
   }
 
- .tab th {
+ .table th {
    padding: 8px;
  }
 
- .tab td {
+ .table td {
    padding: 8px;
+ }
+
+ .background {
+   background-color: aqua;
  }
