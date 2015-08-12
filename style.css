@@ -1,35 +1,49 @@
-.block{display: block;
-background-color:silver;
-padding:20px;
-margin:20px;
-text-align:center;
-color: red;
-}
-.h1{
-color:red;strong;font-size:5px;
-}
-.p1
-{
+.block {
+  display: block;
+  background-color:silver;
+  padding:20px;
+  margin:20px;
+  text-align:center;
+  color: red;
+  }
+
+.h1 {
+  color:red;
+  strong;
+  ont-size:5px;
+  }
+
+.p1 {
   font-size:3px
-}
- .in{
-text-align: right;
- padding:20px;
- margin:20px;
- background-color:blue;
- }
- .li{
+  }
+
+ .in  {
+   text-align: right;
+   padding:20px;
+   margin:20px;
+   background-color:yellow;
+  }
+
+ .li {
    float: right;
    background-color: white;
    margin: 20px;
    padding: 20px;
    color: maroon;
  }
- .tab{
+
+ .tab {
+   background-color: white;
    float: left;
    margin: 20px;
    padding: 20px;
    margin: 20px;
+  }
+
+ .tab th {
+   padding: 8px;
  }
 
+ .tab td {
+   padding: 8px;
  }
