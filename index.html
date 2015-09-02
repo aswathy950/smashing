@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <title>smash</title>
+  </head>
+  <body>
+    <header class="header_visibility">
+
+
+
+      <div class="logo ">
+        <h1>
+           <img src="http://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/logo.png" alt="" />
+        </h1>
+      </div>
+      <h1 class="button ">
+        <a href="#">
+          <button id= "menu_btn" class="menu" type="button" name="menu" title="jump to menu" onclick="show_menu()">
+            MENU
+          </button>
+        </a>
+      </h1>
+      <h1 class="button ">
+        <a href="#">
+          <button id="search_btn" class="search" type="button" name="menu" title="jump to search" onclick="show_search()">
+            <img class="size"  src="http://media.mediatemple.netdna-cdn.com/wp-content/themes/smashing-magazine/assets/images/search-icon.svg" alt="" />
+        </button>
+        </a>
+      </h1>
+
+
+    </header>
+
+    <nav class="hidden_list hide_menu show_menu" id="hidden_menu" >
+        <ul  >
+          <li class="first">Smashing Pages:</li>
+          <li>Books</li>
+          <li>eBooks</li>
+          <li>Tickets</li>
+          <li>Shop</li>
+          <li>Email Newsletter</li>
+          <li>Jobs</li>
+
+        </ul>
+        <ul  >
+          <li class="first">Categories:</li>
+          <li>Coding</li>
+          <li>Design</li>
+          <li>Mobile</li>
+          <li>Graphics</li>
+          <li>UX Design</li>
+          <li>WordPress</li>
+        </ul>
+      </nav>
+
+      <form class= "hiddensearch  hide_search" role="search" id="hidden_search" method="get" action="http://www.smashingmagazine.com/search-results/" target="_top">
+        <label class="sl" for="searching_1">Search on Smashing Magazine</label>
+        <input id="searching_1" name="q" placeholder="e.g. JavaScript" type="text">
+        <button class="search_submit" type="submit">Search</button>
+        <input name="cx" value="partner-pub-6779860845561969:5884617103" type="hidden">
+        <input name="cof" value="FORID:10" type="hidden">
+        <input name="ie" value="UTF-8" type="hidden">
+      </form>
+
+
+
+    <nav class=" clearfix nav_visibility" role="navigation">
+       <ul  class="nav_ul clearfix">
+         <li class="nav_li">
+           <a style="border: 0px none;" href="http://www.smashingmagazine.com">
+             <img src="http://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/logo.png" alt="Smashing Magazine" title="Jump to the front page"></a>
+           </li>
+           <li  >
+             <a href="http://www.smashingmagazine.com/books/">Books</a>
+           </li>
+          <li  class="child_background">
+            <a href="http://www.smashingmagazine.com/ebooks/">eBooks</a>
+          </li>
+          <li  >
+            <a href="http://www.smashingmagazine.com/smashing-workshops/">Tickets</a>
+          </li>
+          <li  >
+            <a href="https://shop.smashingmagazine.com/">Shop</a>
+          </li>
+          <li >
+            <a href="http://jobs.smashingmagazine.com/">Jobs</a>
+          </li>
+      </ul>
+
+
+
+
+      <nav id="social-media-nav" role="menu">
+        <ul class="ch">
+    	     <li class="rss">
+             <a href="http://www.smashingmagazine.com/feed/" title="Subscribe to our RSS-feed (120K)">RSS</a>
+           </li>
+    	      <li class="fb">
+              <a href="http://www.facebook.com/smashmag" title="Join our Facebook page! (246k)">Facebook</a>
+            </li>
+    	       <li class="tw">
+               <a href="http://twitter.com/smashingmag" title="Follow us on Twitter! (902k)">Twitter</a>
+             </li>
+    	        <li class="nl">
+                <a href="http://www.smashingmagazine.com/the-smashing-newsletter/" title="Subscribe to our Email Newsletter (180k)">Newsletter</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="hn hn_visibility">
+          <div class="hs ss clearfix  " >
+           <form role="search" id="search" method="get" action="http://www.smashingmagazine.com/search-results/" target="_top">
+             <label class="sl" for="searching_1">Search on Smashing Magazine</label>
+             <input id="searching_1" name="q" placeholder="e.g. JavaScript" type="text">
+             <button class="search_submit" type="submit">Search</button>
+             <input name="cx" value="partner-pub-6779860845561969:5884617103" type="hidden">
+             <input name="cof" value="FORID:10" type="hidden">
+             <input name="ie" value="UTF-8" type="hidden">
+           </form>
+          </div>
+          </div>
+
+
+    </nav>
+
+    <div class="search_div search_div_visibility">
+      <div class="mise sf clearfix">
+      	<form role="search" id="search" method="get" action="http://www.smashingmagazine.com/search-results/" target="_top">
+          <label class="sl" for="searching_1">Search on Smashing Magazine</label>
+      		<input id="searching_1" name="q" placeholder="e.g. JavaScript" type="text">
+      		<button class="search_submit" type="submit">Search</button>
+      		<input name="cx" value="partner-pub-6779860845561969:5884617103" type="hidden">
+      		<input name="cof" value="FORID:10" type="hidden">
+      		<input name="ie" value="UTF-8" type="hidden">
+      	</form>
+      </div>
+    </div>
+
+    <div class="menu_list_visibility menu_list_width menu_list col col_margin">
+      <div class="menu_list_div">
+        <ul >
+          <li class=" menu-item-coding ">
+            <a href="http://www.smashingmagazine.com/category/coding/">
+              Coding
+            </a>
+            <ul >
+      	       <li >
+                 <a href="http://www.smashingmagazine.com/tag/css/">
+                   CSS
+                 </a>
+               </li>
+      	        <li  >
+                  <a href="http://www.smashingmagazine.com/tag/html/">
+                    HTML
+                  </a>
+                </li>
+      	        <li >
+                  <a href="http://www.smashingmagazine.com/tag/javascript/">
+                    JavaScript
+                  </a>
+                </li>
+      	         <li >
+                   <a href="http://www.smashingmagazine.com/tag/techniques/">
+                     Techniques
+                   </a>
+                 </li>
+               </ul>
+             </li>
+      <li class=" menu-item-design">
+        <a href="http://www.smashingmagazine.com/category/design/">
+          Design
+        </a>
+      <ul >
+      	<li >
+          <a href="http://www.smashingmagazine.com/tag/web-design/">
+            Web Design
+          </a>
+        </li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/typography/">Typography</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/inspiration/">Inspiration</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/business/">Business</a></li>
+      </ul>
+      </li>
+      <li class ="menu-item-mobile"><a href="http://www.smashingmagazine.com/category/mobile/">Mobile</a>
+      <ul >
+      	<li ><a href="http://www.smashingmagazine.com/tag/ios/">iPhone &amp; iPad</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/android/">Android</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/design-patterns/">Design Patterns</a></li>
+      </ul>
+      </li>
+      <li  class=" menu-item-graphics"><a href="http://www.smashingmagazine.com/category/graphics/">Graphics</a>
+      <ul >
+      	<li ><a href="http://www.smashingmagazine.com/tag/photoshop/">Photoshop</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/category/fireworks/">Fireworks</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/wallpapers/">Wallpapers</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/freebies/">Freebies</a></li>
+      </ul>
+      </li>
+      <li class=" menu-item-uxdesign"><a href="http://www.smashingmagazine.com/category/uxdesign/">UX Design</a>
+      <ul >
+      	<li ><a href="http://www.smashingmagazine.com/tag/usability/">Usability</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/user-experience/">User Experience</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/ui/">UI Design</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/e-commerce/">E-Commerce</a></li>
+      </ul>
+      </li>
+      <li class=" menu-item-wordpress"><a href="http://www.smashingmagazine.com/category/wordpress/"><span class="long"><span>Word</span><span>Press</span></span></a>
+      <ul >
+      	<li ><a href="http://www.smashingmagazine.com/tag/essentials/">Essentials</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/techniques-wp/">Techniques</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/plugins/">Plugins</a></li>
+      	<li ><a href="http://www.smashingmagazine.com/tag/themes/">Themes</a></li>
+      </ul>
+      </li>
+      </ul></div>
+    </div>
+
+
+
+    <div class="menu_short menu_short-visibility">
+      <div class="menu_short_coding  " >
+      <a href="#">CODING</a>
+      </div>
+      <div class="menu_short_design">
+      <a href="#">DESIGN</a>
+      </div>
+      <div class="menu_short_mobile">
+      <a href="#">MOBILE</a>
+      </div>
+      <div class="menu_short_graphics">
+        <a href="#">GRAPHICS</a>
+      </div>
+      <div class="menu_short_uxdesign">
+        <a href="#">UX DESIGN</a>
+      </div>
+      <div class="menu_short_wordpress">
+        <a href="#">WP</a>
+      </div>
+    </div>
+
+
+
+  <div class="container container_margin container_width">
+      <div class="container_div">
+        <h2>
+          <a property="url" href="http://www.smashingmagazine.com/2015/08/typographic-patterns-in-html-newsletter-email-design/" rel="bookmark" title="Read 'Typographic Patterns In HTML Email Newsletter Design'">
+            <span property="name">Typographic Patterns In HTML Email Newsletter Design
+            </span>
+          </a>
+        </h2>
+        <ul class="list ulfeature">
+          <li class="a lifeature" property="author" typeof="person" resource="#authorname">By <a href="http://www.smashingmagazine.com/author/annayeaman/" title="Posts by Anna Yeaman" rel="author">
+            Anna Yeaman</a>
+          </li>
+          <li class="date lifeature" property="datePublished" content="August 24th, 2015">August 24th, 2015</li>
+          <li class="tags lifeature" property="keywords">
+           <a href="http://www.smashingmagazine.com/tag/emails/">Emails, </a><a href="http://www.smashingmagazine.com/tag/newsletters/">Newsletters, </a><a href="http://www.smashingmagazine.com/tag/patterns/">Patterns</a></li>
+           <li class="comments lifeature" property="discussionUrl"><a href="#comments" title="Comment on Typographic Patterns In HTML Email Newsletter Design">10 Comments</a> </li>
+         </ul>
+
+         <p class="big">
+           As designers we usually turn to different sources of inspiration, but, well, sometimes the best inspiration lies right in front of us. With that in mind, we embarked on a special creativity mission seven years ago: to provide you with inspiring and unique desktop wallpapers every month. Wallpapers that are a little more distinctive than the usual crowd and that are bound to fuel your ideas.
+         </p>
+         <figure>
+            <a style="border: 0px none;" href="http://www.smashingmagazine.com/2015/08/desktop-wallpaper-calendars-september-2015/">
+              <img property="image" src="http://www.smashingmagazine.com/wp-content/uploads/2015/08/sept-15-listen-closer-the-mushrooms-are-growing-preview-opt.jpg" alt="Desktop Wallpaper Calendars: September 2015" title="Desktop Wallpaper Calendars: September 2015" height="281" >
+              </a>
+            </figure>
+            <p class="small">
+              We are very thankful to all artists and designers who have contributed and are still diligently contributing to this mission, who challenge their artistic abilities each month anew to keep the steady stream of wallpapers flowing. This post features their artwork for September 2015. Both versions with and without a calendar can be downloaded for free. It’s time to freshen up your desktop!
+            </p>
+            <button type="button" name="button">
+              <a href="#">Read More</a>
+            </button>
+          </div>
+          <div class="container_div">
+            <h2>
+              <a property="url" href="http://www.smashingmagazine.com/2015/08/typographic-patterns-in-html-newsletter-email-design/" rel="bookmark" title="Read 'Typographic Patterns In HTML Email Newsletter Design'">
+                <span property="name">Typographic Patterns In HTML Email Newsletter Design
+                </span>
+              </a>
+            </h2>
+            <ul class="list ulfeature">
+              <li class="a lifeature" property="author" typeof="person" resource="#authorname">By <a href="http://www.smashingmagazine.com/author/annayeaman/" title="Posts by Anna Yeaman" rel="author">
+                Anna Yeaman</a>
+              </li>
+              <li class="date lifeature" property="datePublished" content="August 24th, 2015">August 24th, 2015</li>
+              <li class="tags lifeature" property="keywords">
+                <a href="http://www.smashingmagazine.com/tag/emails/">Emails, </a><a href="http://www.smashingmagazine.com/tag/newsletters/">Newsletters, </a><a href="http://www.smashingmagazine.com/tag/patterns/">Patterns</a></li>
+                <li class="comments lifeature" property="discussionUrl"><a href="#comments" title="Comment on Typographic Patterns In HTML Email Newsletter Design">10 Comments</a> </li>
+              </ul>
+
+              <p class="big">
+                As designers we usually turn to different sources of inspiration, but, well, sometimes the best inspiration lies right in front of us. With that in mind, we embarked on a special creativity mission seven years ago: to provide you with inspiring and unique desktop wallpapers every month. Wallpapers that are a little more distinctive than the usual crowd and that are bound to fuel your ideas.
+              </p>
+              <figure>
+                <a style="border: 0px none;" href="http://www.smashingmagazine.com/2015/08/desktop-wallpaper-calendars-september-2015/">
+                  <img property="image" src="http://www.smashingmagazine.com/wp-content/uploads/2015/08/sept-15-listen-closer-the-mushrooms-are-growing-preview-opt.jpg" alt="Desktop Wallpaper Calendars: September 2015" title="Desktop Wallpaper Calendars: September 2015" height="281" >
+                </a>
+              </figure>
+              <p class="small">
+                We are very thankful to all artists and designers who have contributed and are still diligently contributing to this mission, who challenge their artistic abilities each month anew to keep the steady stream of wallpapers flowing. This post features their artwork for September 2015. Both versions with and without a calendar can be downloaded for free. It’s time to freshen up your desktop!
+              </p>
+              <button type="button" name="button">
+                <a href="#">Read More</a>
+              </button>
+            </div>
+
+
+         <div class="next_prev" >
+            <span class="cursor">
+              <a  href="file:///home/aswathi/smash/index.html" class="page">1</a>
+              <a href="http://www.smashingmagazine.com/page/2/" class="page">2</a>
+              <a href="http://www.smashingmagazine.com/page/3/" class="page">3</a>
+              <a href="http://www.smashingmagazine.com/page/4/" class="page">4</a>
+              <a href="http://www.smashingmagazine.com/page/5/" class="page">5</a>
+              <a href="http://www.smashingmagazine.com/page/6/" class="page">6</a>
+            </span>
+            <span class="nxt">
+              <button type="button" name="button">
+                <a href="http://www.smashingmagazine.com/page/2/">next »</a>
+                </button>
+              </span>
+            </div>
+
+        <div class="footer">
+            <img src="http://www.smashingmagazine.com/wp-content/uploads/2015/08/ui-cal-opt.png" alt="UI Mechanics of a Date Picker" height="316" width="500">
+        </div>
+   </div>
+
+   <div class="advertisement  advertisement_visibility">
+    <div class="images">
+
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=10555__zoneid=24__OXLCA=1__cb=81413956eb__oadest=https%3A%2F%2Fwww.psd2html.com%2Forder-now.html%3Futm_source%3Dsmashingmagazine.com%26utm_medium%3Dbanner_direct%26utm_content%3Dblue%26utm_campaign%3Dresponsive" target="_blank">
+        <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=bushel_200x125.jpg&amp;contenttype=jpeg" alt="Sign up for free" title="Sign up for free" height="125" width="200" border="0">
+
+      </a>
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=11448__zoneid=24__OXLCA=1__cb=db9d2df031__oadest=http%3A%2F%2Fwww.bushel.com%2Fsmashingmagazine%3Futm_source%3DSmash%26utm_medium%3DText%26utm_content%3DSponsor%26utm_campaign%3D2015-33" target="_blank">
+      <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=p2h_new_banner_blue_4.png&amp;contenttype=png" alt="PSD2HTML.com" title="PSD2HTML.com" height="125" width="200" border="0">
+      </a>
+
+    </div>
+    <div class="images">
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=10555__zoneid=24__OXLCA=1__cb=81413956eb__oadest=https%3A%2F%2Fwww.psd2html.com%2Forder-now.html%3Futm_source%3Dsmashingmagazine.com%26utm_medium%3Dbanner_direct%26utm_content%3Dblue%26utm_campaign%3Dresponsive" target="_blank">
+        <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=sm-200x125-invision_2.png&contenttype=png" height="125" width="200" border="0">
+      </a>
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=11448__zoneid=24__OXLCA=1__cb=db9d2df031__oadest=http%3A%2F%2Fwww.bushel.com%2Fsmashingmagazine%3Futm_source%3DSmash%26utm_medium%3DText%26utm_content%3DSponsor%26utm_campaign%3D2015-33" target="_blank">
+      <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=smashingmag_aug182015-200x125(optimized).png&contenttype=png" alt="PSD2HTML.com" title="PSD2HTML.com" height="125" width="200" border="0">
+      </a>
+
+    </div>
+    <div class="images">
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=10555__zoneid=24__OXLCA=1__cb=81413956eb__oadest=https%3A%2F%2Fwww.psd2html.com%2Forder-now.html%3Futm_source%3Dsmashingmagazine.com%26utm_medium%3Dbanner_direct%26utm_content%3Dblue%26utm_campaign%3Dresponsive" target="_blank">
+        <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=mids_200x125_12.png&contenttype=png" alt="Sign up for free" title="Sign up for free" height="125" width="200" border="0">
+      </a>
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=11448__zoneid=24__OXLCA=1__cb=db9d2df031__oadest=http%3A%2F%2Fwww.bushel.com%2Fsmashingmagazine%3Futm_source%3DSmash%26utm_medium%3DText%26utm_content%3DSponsor%26utm_campaign%3D2015-33" target="_blank">
+      <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=monstroid-bluerobot-opt_2.png&contenttype=png" title="PSD2HTML.com" height="125" width="200" border="0">
+      </a>
+
+    </div>
+    <div class="images">
+      <a style="border: 0px none;" href="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ck.php?oaparams=2__bannerid=10555__zoneid=24__OXLCA=1__cb=81413956eb__oadest=https%3A%2F%2Fwww.psd2html.com%2Forder-now.html%3Futm_source%3Dsmashingmagazine.com%26utm_medium%3Dbanner_direct%26utm_content%3Dblue%26utm_campaign%3Dresponsive" target="_blank">
+        <img src="http://auslieferung.commindo-media-ressourcen.de/www/delivery/ai.php?filename=drag_and_drop_responsive_grid_(green)_4.png&contenttype=png" alt="" />
+      </a>
+
+    </div>
+   </div>
+
+    <div class="newsletter newsletter_visibility ">
+       <div class="heading">
+         <h3>
+           <a style="border: 0px none;" href="http://www.smashingmagazine.com/the-smashing-newsletter/">
+             <img src="http://www.smashingmagazine.com/wp-content/themes/smashing-magazine/assets/images/smnl.png" alt="Smashing Newsletter">
+             Smashing Newsletter
+           </a>
+         </h3>
+         <p >
+           Subscribe to our email newsletter for useful tips and valuable resources, sent out every second Tuesday.
+         </p>
+         <form action="http://smashingmagazine.us1.list-manage1.com/subscribe/post?u=16b832d9ad4b28edf261f34df&amp;id=a1666656e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+           <input name="EMAIL" placeholder="email address" type="text">
+           <button class="submit" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+
+  </body>
+
+
+</html>
