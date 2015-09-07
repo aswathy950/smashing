@@ -1,0 +1,17 @@
+.block{display: block;
+background-color:silver;
+padding:20px;
+margin:20px;
+text-align:center;
+color:red
+}
+.h1{
+color:red;strong;font-size:5px;
+}
+.p{color:blue;font-size:3px}
+
+ }
+ .in{display:inline;
+ background-color:blue;
+ text-align:right;
+ }

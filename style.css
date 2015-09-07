@@ -1,0 +1,53 @@
+.block {
+  display: block;
+  background-color:silver;
+  padding:20px;
+  margin:20px;
+  text-align:center;
+  color: red;
+  }
+
+.h1 {
+  color:red;
+  strong;
+  ont-size:5px;
+  }
+
+.p1 {
+  font-size:3px
+  }
+
+ .inline  {
+   text-align: right;
+   padding:20px;
+   margin:20px;
+   background-color:yellow;
+  }
+
+ .list {
+   float: right;
+   background-color: white;
+   margin: 20px;
+   padding: 20px;
+   color: maroon;
+ }
+
+ .table {
+   background-color: white;
+   float: left;
+   margin: 20px;
+   padding: 20px;
+   margin: 20px;
+  }
+
+ .table th {
+   padding: 8px;
+ }
+
+ .table td {
+   padding: 8px;
+ }
+
+ .background {
+   background-color: aqua;
+ }
