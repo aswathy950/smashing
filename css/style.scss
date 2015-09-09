@@ -661,15 +661,6 @@ nav {
 .nl a {
     background-position: 76% 9%;
 }
-.nw li.cody  {
-    background-image: url("http://media.mediatemple.netdna-cdn.com/wp-content/themes/smashing-magazine/assets/images/navilittlebook.png");
-    background-repeat: no-repeat;
-    background-position: right 0.125em;
-    text-align: center;
-}
-.nw a {
-  text-align: center;
-}
 
 form {
   font-size: 100%;
@@ -797,6 +788,7 @@ button {
     margin-left: -0.08em;
       list-style: outside none disc;
 }
+
 .menu_list li {
     border-left-width: 0.625em;
     border-left-style: solid;
@@ -806,6 +798,7 @@ button {
     padding-left: 0px;
     padding-top: 0px;
     line-height: 6px;
+
 }
 
 .menu-item-coding {
@@ -864,12 +857,14 @@ button {
 .menu_list li a:hover {
   background: none repeat scroll 0% 0% #FF6;
   border-bottom: .08em solid #DCDCDC;
+
 }
 
 
 .menu_list li li:hover {
   border-bottom: none;
   background: none repeat scroll 0% 0% #FF6;
+  
 }
 .menu_list li li a:hover {
   border-bottom: none;

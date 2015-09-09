@@ -538,15 +538,6 @@ nav {
 .nl a {
   background-position: 76% 9%; }
 
-.nw li.cody {
-  background-image: url("http://media.mediatemple.netdna-cdn.com/wp-content/themes/smashing-magazine/assets/images/navilittlebook.png");
-  background-repeat: no-repeat;
-  background-position: right 0.125em;
-  text-align: center; }
-
-.nw a {
-  text-align: center; }
-
 form {
   font-size: 100%;
   vertical-align: baseline;
@@ -605,7 +596,7 @@ label {
 input[type="text"] {
   line-height: 1.5;
   margin-bottom: 1em;
-  padding: 0.5em .2em;
+  padding: 0.5em;
   color: #777;
   border: 0.08em solid rgba(0, 0, 0, 0.1);
   background-color: #FFF;
