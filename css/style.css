@@ -605,7 +605,7 @@ label {
 input[type="text"] {
   line-height: 1.5;
   margin-bottom: 1em;
-  padding: 0.5em;
+  padding: 0.5em .2em;
   color: #777;
   border: 0.08em solid rgba(0, 0, 0, 0.1);
   background-color: #FFF;
