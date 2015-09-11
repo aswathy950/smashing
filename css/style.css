@@ -358,7 +358,7 @@ p.small {
   font-weight: 400;
   vertical-align: top;
   overflow: visible;
-  padding: 0.4em 1em;
+  padding: 0.4em 0em;
   border: 0.08em solid #42B7D8;
   color: #FFF;
   background: linear-gradient(to bottom, #41B7D8 0px, #41B7D8 100%) repeat scroll 0% 0% transparent;
@@ -368,8 +368,8 @@ p.small {
   transition: border-color 0.3s ease 0s;
   margin: 0px;
   cursor: pointer;
-  width: 120px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
   margin: 30px 10px; }
 
 .container_div button a {
